@@ -1,0 +1,102 @@
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        font-family: sans-serif;
+        position: relative;
+      }
+
+      /* Blog Card Container */
+      .blog-card-container{
+        background-color: #FFFFFF;
+        width: 368px;
+        height: auto;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+        margin: auto;
+        border-radius: 8px;
+        margin-top: 5em;
+        padding: 1em;
+        position: relative;
+      }
+
+      /* Card header */
+      .blog-card-header{
+        height: auto;
+      }
+      .blog-card-container img{
+        width: 336px;
+        height: 156px;
+        border-radius: 8px;
+      }
+
+      .design-title{
+        background-color: #F2EAFD;
+        width: 75px;
+        font-size:  0.725rem;
+        color: #7C19EE;
+        padding: 0.375em 1em;
+        border-radius: 12px;
+        text-align: center;
+        margin: 1em 0em;
+        font-weight: 800;
+      }
+
+      /* Card body */
+      .blog-card-body{
+        height: auto;
+      }
+      .blog-card-container h1{
+        font-size:  1.125rem;
+        color: #20293A;
+        margin-bottom: 0.375em;
+        font-weight: 700;
+      }
+      .blog-card-container p{
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #394150;
+      }
+
+      /* Card Footer */
+      .blog-card-footer{
+        height: auto;
+        padding: 1.25em 0em;
+        margin-top: 1.25em;
+        border-top: 0.15em solid #F2EAFD;
+      }
+      .blog-card-footer p{
+        color: #394150;
+        font-size: 0.75rem;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      /* Media Queries */
+      /* Mobile Responsiveness */
+      @media screen and (max-width: 480px){
+        .blog-card-container{
+            margin: 10em auto;
+            overflow: auto;
+        }
+      }
+      
+      /* Tablet and up Responsiveness */
+      @media screen and (min-width: 768) {
+        .blog-card-container{
+            margin: 10em auto;
+        }
+        
+      }
